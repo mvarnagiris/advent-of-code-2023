@@ -1,7 +1,5 @@
 import kotlin.math.pow
 
-val NumberRegex = "\\d+".toRegex()
-
 fun day4Part1() = getResourceAsText("day4.txt")
     .lines()
     .sumOf { line ->
